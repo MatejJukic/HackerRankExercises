@@ -33,8 +33,10 @@ var toPay=0;
 for (i=0; i<s.length; i++){
     str+=s[i];
     for (j=0; j<i; j++){
-        if (str[j]==str[i])
+        if (str[j]==str[i]){
             flag=true;
+            break;
+        }
 
     }
 if (!flag) toPay++;
