@@ -3,9 +3,12 @@ const app = require ('../app');
 
 describe('App', function(){
 
-    it('should return Hello World', function(){
 
-            assert.equal(app(), "Hello World");
+    it('should pass example', function(){
 
+            assert.deepEqual(app.gradingStudents([73, 67, 38, 33]), [75, 67, 40, 33]);
     });
+
+   
 });
+
