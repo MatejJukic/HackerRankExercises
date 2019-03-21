@@ -1,0 +1,29 @@
+{
+  "name": "hackerrankexercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatejJukic/HackerRankExercises.git"
+  },
+  "author": "MatejJukic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatejJukic/HackerRankExercises/issues"
+  },
+  "homepage": "https://github.com/MatejJukic/HackerRankExercises#readme"
+}
